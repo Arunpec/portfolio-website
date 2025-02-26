@@ -13,7 +13,6 @@ export class ExperienceComponent {
     jobTitle: "Software Developer",
     company: "Cloudstier Solutions (2023 - Present)",
     responsibilities: [
-      "Worked on Angular and ASP.NET Core projects, improving performance and user experience.",
       "Designed and developed scalable web applications using .NET Core, .NET MVC, and SQL Server.",
       "Optimized database queries and API performance, reducing load time by 30%.",
       "Implemented best coding practices to ensure high-quality and maintainable code.",

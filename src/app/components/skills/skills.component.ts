@@ -12,7 +12,7 @@ export class SkillsComponent {
   skills = [
     { category: "Backend", items: [".NET Core", ".NET MVC", "Web API", "Blazor"] },
     { category: "Frontend", items: ["Angular", "Bootstrap"] },
-    { category: "ORM & Databases", items: ["Entity Framework Core", "MS SQL", "MySQL", "PostgreSQL"] },
+    { category: "ORM & Databases", items: ["Entity Framework Core","Dapper", "MS SQL", "MySQL", "PostgreSQL"] },
     { category: "DevOps & Deployment", items: ["Docker"] }
   ];
 }
