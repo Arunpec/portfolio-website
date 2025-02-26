@@ -1,0 +1,61 @@
+/* Background color */
+#skills {
+    background: linear-gradient(to right, #28a745, #20c997); /* Green Gradient */
+    padding: 50px 0;
+  }
+  
+  /* Fade-in effect for the section */
+  .animate-fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  /* Slide-up effect for skill cards */
+  .animate-slide-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 1s ease-in-out forwards 0.5s;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styling for skill category titles */
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  /* Styling for skill items */
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  

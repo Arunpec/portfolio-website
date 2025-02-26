@@ -1,0 +1,57 @@
+/* Background color */
+#contact {
+    background: linear-gradient(to right, #17a2b8, #007bff); /* Blue Gradient */
+    padding: 50px 0;
+  }
+  
+  /* Fade-in effect for the section */
+  .animate-fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  /* Slide-up effect for contact card */
+  .animate-slide-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 1s ease-in-out forwards 0.5s;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Text Styling */
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  

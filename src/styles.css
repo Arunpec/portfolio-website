@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Background Colors */
+  #about {
+    background-color: #e3f2fd; /* Light Blue */
+  }
+  
+  #skills {
+    background-color: #f1f8e9; /* Light Green */
+  }
+  
+  #experience {
+    background-color: #fce4ec; /* Light Pink */
+  }
+  
+  #projects {
+    background-color: #ede7f6; /* Light Purple */
+  }
+  
+  #contact {
+    background-color: #fff3e0; /* Light Orange */
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
